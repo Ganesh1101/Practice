@@ -1,0 +1,46 @@
+*{
+    margin: 5px, 5px, 5px, 5px;
+}
+h1{
+    background-color: rgb(241, 110, 110);
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+    margin-left:5px;
+    margin-right:5px
+}
+div{
+    background-color: rgb(228, 188, 140);
+    background-position:center;
+    border-style: inset;
+    border-color: rgba(54, 20, 20, 0.699);
+    border-width:10px;
+    height: 60%;
+    width:30%;
+   
+}
+.input{
+    width:97%;
+    height: 10%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left:5px;
+    margin-right:5px;
+}
+   
+.msg{
+    width:97%;
+    height: 20%;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.btn{
+    width:97%;
+    background-color:rgba(255, 153, 0, 0.838);
+    margin-top: 15px;
+    height:10%;
+    margin-left:5px;
+    margin-right:5px;
+}

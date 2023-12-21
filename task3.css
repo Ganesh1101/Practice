@@ -1,0 +1,48 @@
+*{
+    margin: 5px,5px,5px, 5px;
+   
+    
+}
+div{
+   
+    background-color: rgba(0, 0, 0, 0.819);
+    width:35%;
+    height:60%;
+    align-items: center;
+    margin-top:0%;
+
+}
+h1{
+    color:yellow;
+    background-color: rgb(214, 135, 15);
+    text-align: left;
+    width:35%;
+    margin-bottom: 0%;
+}
+table{
+    color:yellow;
+    font-size: large;
+    font-weight: lighter;
+    text-align: right;
+    padding-top: 3%;
+    padding-left: 4%;
+    height:100%;
+}
+.inpt{
+    width:115%;
+    margin-left:15px;
+    
+}
+button{
+    background-color:rgb(18, 143, 18) ;
+    width:90px;
+    height:40px;
+    margin-top:15px;
+    font-size:20px;
+}
+
+
+span{
+    margin-left:60%;
+    background-color:green;
+} 
