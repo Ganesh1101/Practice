@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .background{
+            background-image: url("login_bg.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: cover;
+            color:black;
+          
+        }
+        .banner{
+            background-color: white;
+            border-radius: 25px;
+            height:65vh;
+            width:28%;
+            margin-left:540px;
+            margin-top:120px;
+            border:black 8px outset;
+
+        }
+        input{
+            height:40px;
+            width:200px;
+            border-radius: 25px;
+            font-size: 18px;
+            margin-left: 5px;
+            border: 3px outset black;
+        }
+        tr{
+            padding:10px;
+        }
+        img{
+            margin-top: 65px;
+            margin-bottom: 15px;
+            height:100px;
+            width: 150px; 
+            border: 3px outset black;
+
+        }
+        th{
+            padding: 8px;
+        }
+        .btn{
+            height: 40px;
+            width:120px;
+            margin-left: 40px;
+            border-radius: 5px;
+            background:rgb(24, 209, 14);
+            font-size: large;
+
+        }
+        .btn:hover{
+            background-color: rgb(97, 249, 198);
+            
+        }
+        .fg:hover
+        {
+            text-decoration: underline;
+            font-size: larger;
+        }
+        
+
+        
+        
+
+    </style>
+</head>
+<body class="background">
+    <div class="banner">
+        <table style="margin-left: 10%; margin-top:50;"> 
+              <tr><th colspan="2" ><img src="logo.jpg"></th></tr>    
+              <tr><th><label style="font-size: larger;">UserName</label></th><th><input type="text" id="un" placeholder="  Enter UserName"></th></tr>
+              <tr><th><label style="font-size: larger;">Password</label></th><th><input type="password" id="un" placeholder="  Enter Password"></th></tr>
+ 
+        </table>
+        <table style="margin-left:10% ">
+            <tr><th class="fg">forgot password ?</th><th><button type="submit" class="btn fg">Login</button></th></tr>
+        </table>
+ 
+
+    </div>
+    
+</body>
+</html>
